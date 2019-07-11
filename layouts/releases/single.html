@@ -1,0 +1,52 @@
+{{ define "main" }}
+<article class="w-100 pb4 f4">
+
+	<!-- Release Title -->
+	<div class="mw7 center">
+		<h1 class="ph3 f-5-ns f1 b ttu">{{ .Title }}</h1>
+	</div>
+	
+	<!-- Release Metadata -->
+    <div class="lh-copy measure center pa3">
+		<div class="db"><span class="b">Format: </span>{{ .Params.format }}</div>
+		<div class="db"><span class="b">Release Date: </span>{{ .Params.releaseDate }}</div>
+		<div class="db"><span class="b">Label: </span>{{ .Params.label }}</div>
+
+		<!-- Release Picture -->
+		<img class="pv3" src="{{ .Params.mainImage }}">
+
+		<!-- Links -->
+		{{ if .Params.linkStream }}
+			<span class="db">
+				<a class="" href="{{ .Params.linkStream }}" title="Stream {{ .Title }}" target="_blank">Stream</a>
+			</span>
+		{{ end }}
+
+		{{ if .Params.linkDigital }}
+		<span class="db">
+			<a class="" href="{{ .Params.linkDigital }}" title="Buy {{ .Title }} on Digital" target="_blank">Buy Digital</a>
+		</span>
+		{{ end }}
+		{{ if .Params.linkPhysical }}
+		<span class="db">
+			<a class="" href="{{ .Params.linkPhysical }}" title="Buy {{ .Title }} on Physical" target="_blank">Buy Physical</a>
+		</span>
+		{{ end }}
+
+		<!-- Tracks Metadata -->
+		<span class="b db mt4">Tracks </span>
+		{{ range .Params.tracklist }}
+				<span class="">{{ index . "title" }}</span> – {{ index . "duration" }}<br />
+		{{ end }}	
+
+	</div>
+
+	<!-- Release Article -->
+	<div class="lh-copy measure center ph3 pb4">
+		{{ .Content }}
+	</div>
+</article>
+
+<!-- Forward and Back Buttons -->
+{{ partial "previous-next.html" . }}
+{{ end }}

@@ -1,0 +1,28 @@
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX"></script>
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXX');
+</script>
+
+-->
+	<meta charset="UTF-8">
+	<meta http-equiv="Cache-control" content="private" max-age="604800">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Label Discography" />
+	<meta property="og:title" content="Label Discography" />
+	<meta property="og:description" content="Label Discography" />
+
+	{{ $style := resources.Get "sass/test.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> 
+
+	<title>{{ .Title }} | {{ .Site.Title }}</title>   
+</head>
