@@ -3,7 +3,7 @@ title: Private Agenda - Affection
 layout: release
 releaseDate: 16th November 2018
 label: Nightshift
-format: Digital / Physical
+format: Digital, Physical
 links: 
 linkPhysical: http://private-agenda.bandcamp.com/album/affection
 linkDigital: http://private-agenda.bandcamp.com/album/affection
