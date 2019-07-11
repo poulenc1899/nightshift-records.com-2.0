@@ -3,11 +3,11 @@ title: Private Agenda - Affection
 layout: release
 releaseDate: 16th November 2018
 label: Nightshift
-format: Digital
-links:
-linkPhysical: "http://private-agenda.bandcamp.com/album/affection"
-linkDigital: "http://private-agenda.bandcamp.com/album/affection"
-linkStream: "https://open.spotify.com/album/39Gp1iDJ0pYgonqufSKDdY"
+format: Digital / Physical
+links: 
+linkPhysical: http://private-agenda.bandcamp.com/album/affection
+linkDigital: http://private-agenda.bandcamp.com/album/affection
+linkStream: https://open.spotify.com/album/39Gp1iDJ0pYgonqufSKDdY
 tracklist:
 - title: Instinct
   duration: '04:50'
