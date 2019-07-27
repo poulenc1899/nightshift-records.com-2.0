@@ -20,6 +20,11 @@ tracklist:
 mainImage: "/images/Cover-Affection-Front.jpg"
 backImage: "/images/Cover-Affection-Back.jpg"
 
+date: "2018-11-16"
+description: "About Private Agenda - Affection"
+images: ["/images/Cover-Affection-Front.jpg"]
+title: "Private Agenda - Affection"
+
 ---
 How would you feel if I wrote a song about you? [Private Agenda’s](https://private-agenda.com) latest EP, _Affection_ is a soundtrack to those crash-and-burn romances. The backing track to your next hookup, the hold music to the next fuck-up. A synth-pop deluge of sweat and regret. A thematic and musical fusion of romantic pop songwriting and whirlwind dating culture. Four tracks which unite disparate underground influences, contemporary production and classic pop songwriting. A poke at pop’s mainstream with firm roots in the queer musical underground.
 

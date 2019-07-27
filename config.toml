@@ -1,6 +1,11 @@
 baseURL = "https://nightshift-records.com"
 languageCode = "en-us"
+googleAnalytics = "UA-76524865-2"
 title = "Nightshift"
 disablePathToLower = "true"
 [permalinks]
   releases = "/:title/"
+[params]
+  description = "Nightshift Records, established 2016"
+  images = ["images/Cover-Affection-Front.jpg"]
+  title = "Nightshift"
